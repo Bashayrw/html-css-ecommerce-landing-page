@@ -1,0 +1,34 @@
+span {
+    display: inline-block;
+    font-family:'Trebuchet MS';
+    font-size: x-large;
+}
+
+.hero {
+    margin: 90px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 100px 50px;
+}
+.navigation {
+    display: inline-block;
+    margin-left: 100px;
+}
+.navigation ol li {
+    display: inline;
+    padding: 40px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.opinion {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
