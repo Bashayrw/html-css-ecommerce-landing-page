@@ -1,11 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
 span {
     display: inline-block;
-    font-family:'Trebuchet MS';
-    font-size: x-large;
+    font-family:'Courier New';
+    font-size:xx-large;
+    
 }
 
 .hero {
-    margin: 90px;
+    background-color: rgb(239, 218, 193);
+  padding: 72px;
+  margin-block: 84px;
+
 }
 
 .section-title {
@@ -19,11 +26,20 @@ span {
 .navigation ol li {
     display: inline;
     padding: 40px;
+    color: #000;
 }
 
+.prodCard{
+
+    display: flex;
+    justify-content: space-around;
+}
 .product {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
     
 }
 
@@ -31,4 +47,28 @@ span {
     display: inline-block;
     text-align: center;
     margin: 50px;
+    border: 2px;
 }
+
+.btn {
+transition-duration: 2s;
+}
+ .btn:hover {
+    background-color: gray;
+    transform: translateY(-1px);
+ }
+
+ img {
+    border: 1.5px solid burlywood;
+ }
+
+ .subscription {
+    text-align:center;
+    
+ }
+
+ footer {
+    background-color: rgb(239, 218, 193);
+    padding-block: 30px;
+ }
+
