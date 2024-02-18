@@ -1,3 +1,8 @@
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: xx-large;
+    letter-spacing: 1px;
+}
 body {
     background-color: antiquewhite;
 }
@@ -9,15 +14,21 @@ span {
 }
 
 .hero {
-    background-color: rgb(239, 218, 193);
+    background-color: rgba(239, 218, 193);
   padding: 72px;
   margin-block: 84px;
+  border-left: 50px rgb(228, 206, 180) solid
 
 }
-
+.section-design{
+    background-color: rgb(239, 218, 193) ;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    margin: 10px 0;
+}
 .section-title {
     text-align: center;
-    margin: 100px 50px;
+    margin: 10px 50px 80px 50px;
 }
 .navigation {
     display: inline-block;
@@ -26,32 +37,41 @@ span {
 .navigation ol li {
     display: inline;
     padding: 40px;
-    color: #000;
-}
 
+}
+  
 .prodCard{
 
     display: flex;
     justify-content: space-around;
 }
-.product {
+.prodCard__product {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-image: -moz-element(); 
     
     
     
 }
 
-.opinion {
-    display: inline-block;
-    text-align: center;
-    margin: 50px;
-    border: 2px;
+.reviewCard {
+    display: flex;
+    justify-content: space-around;
 }
+.reviewCard__opinion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: -moz-element(); 
+    
+}
+
+
 
 .btn {
 transition-duration: 2s;
+margin-top: 20px;
 }
  .btn:hover {
     background-color: gray;
@@ -59,11 +79,12 @@ transition-duration: 2s;
  }
 
  img {
-    border: 1.5px solid burlywood;
+    border: 1.5px solid hwb(34 45% 25%);
  }
 
  .subscription {
     text-align:center;
+    margin-top: 20px;
     
  }
 
@@ -71,4 +92,14 @@ transition-duration: 2s;
     background-color: rgb(239, 218, 193);
     padding-block: 30px;
  }
+@media screen and (max-width:600px){
+    .prodCard, .reviewCardt{
+        width: 90%;
+    }
 
+}
+.media {
+    word-spacing:0.1cm; 
+}
+
+ 
